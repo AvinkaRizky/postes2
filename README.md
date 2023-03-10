@@ -25,3 +25,5 @@ print("3. Wibi di Index: {} pada kolom 1".format(jump_search(var, "Wibi")))
 
 Program ini dibuat untuk mencari dan menampilkan banyak data yang telah diberikan pada sebuah list.
 Merupakan algoritma pencarian yang bekerja dengan cara mengecek setiap elemen pada suatu list secara berurutan.
+dimulai dengan data pertama pada list, lalu mengecek data yag dicari sama atau tidak, jika iya maka mengembalikan indeks, jika tidak maka aakn pindah ke data selanjutnya dan mengulangi langkah ke 2 dan 3 sampai seluruh data di dalam list diperiksa. 
+List data yang akan dicari adalah var.
